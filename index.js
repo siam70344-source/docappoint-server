@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://docappoint.vercel.app", // update after deploy
+      "https://docappoint-client.vercel.app", // update after deploy
     ],
     credentials: true,
   })
